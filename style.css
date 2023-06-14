@@ -1,0 +1,178 @@
+h1{
+
+    background-image: linear-gradient(to right,red 0.4%,green,yellow);
+    text-align: center  ;
+    text-decoration: underline;
+}
+ul{
+
+    background-color: rgb(121, 196, 196);
+    border: 3px solid red;
+    border-radius: 8px;
+    width: 800px;
+    margin: auto;
+    
+}
+li{
+ text-align: center;
+ list-style-position: inside;
+ 
+}
+.container{
+
+
+    background-color: aquamarine;
+    border-radius: 7px  ;
+    height: 108px;
+    width:100%;
+    padding :7px;
+    border-radius: 18px;
+    border: 3px solid brown ;
+    margin: 14px;
+}
+.one{
+    background-color: rgb(134, 244, 248);
+    border: 3px solid green;
+    height:50px;
+    width:400px;
+    margin:0px 10px;
+    border-radius: 6px;
+    vertical-align: top;
+}
+.content{
+display:flex ;
+padding-top: 0;
+
+
+}
+.two{
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+    margin-left:440px;
+}
+
+.three{
+
+    background-image: linear-gradient(to right, red , yellow, red);
+    text-align: center;
+    padding-bottom: 15px;
+
+
+}
+.box{
+
+
+    background-color: yellow;
+    border: 3px solid red;
+    border-radius: 10px;
+    width:150px;
+    height: 100px;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+}
+.box1{
+
+    background-image: radial-gradient(blue ,skyblue ,green );
+    margin: 12px 0px 0px 12px;
+    margin-left: 0;
+    display:flex ;
+    justify-content: space-around;
+    height: 250px;
+    align-items: center;
+    padding: 15px;
+     width: 98%;
+
+}
+
+.grid-container{
+margin-top: 10px;
+    display: grid;
+    grid-template-columns: 390px 390px 390px 100px;
+
+    grid-template-rows: 40px 40px 100px 20px ;
+    gap: 15px;
+}
+.box11{
+
+    grid-column: 1/5;
+    grid-row: 1/2;
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    word-spacing: 2px;
+    
+}
+.box12{
+
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color:rgb(14, 173, 14);
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    word-spacing: 2px;
+    
+    
+}
+
+.box13{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color:blue;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    word-spacing: 2px;
+    
+}
+.box14{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color:darkorchid;
+    text-align: left;
+    color: white;
+    font-weight: 800;
+    word-spacing: 2px;
+    
+}
+.box15{
+
+    grid-column: 4/5;
+    grid-row: 2/4;
+    background-color:rgb(59, 55, 55);
+    text-align: left;
+    color: white;
+    font-weight: 800;
+    word-spacing: 2px;
+    height: 164px;
+    
+
+}
+
+.box16{
+grid-column: 1/4;
+grid-row:3/4 ;
+background-color:orange;
+height: 110px;
+text-align: center;
+color: white;
+font-weight: 600;
+word-spacing: 2px;
+
+}
+
+
+
+.box17{
+    grid-column: 1/5;
+    grid-row: 4/5;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    word-spacing: 2px;
+    background-color: aquamarine;
+    gap: 5px;
+}
